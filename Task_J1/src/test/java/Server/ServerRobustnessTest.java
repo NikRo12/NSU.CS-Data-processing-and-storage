@@ -146,7 +146,7 @@ class ServerRobustnessTest {
     @Test
     void clientDisconnectsImmediatelyAfterConnect_doesNotCrashServer(@TempDir Path tempDir) throws Exception {
         try (Socket socket = new Socket("localhost", port)) {
-            // соединились и сразу закрылись, ничего не отправив
+           я
         }
 
         Thread.sleep(200);
